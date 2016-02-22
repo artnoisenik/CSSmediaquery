@@ -2,6 +2,11 @@ body{
   background-color: tomato;
 }
 
+img{
+  width: 100px;
+  display: none;
+}
+
 .logo{
   border: 1px solid black;
   padding: 5px;
@@ -26,6 +31,12 @@ section{
       background-color: yellow;
     }
 
+    img{
+      width: 100px;
+      display: inline-block;
+      float: right;
+    }
+
     .logo{
       border: 1px dashed green;
       padding: 5px;
@@ -39,7 +50,12 @@ section{
       width: 100%;
     }
 
+    ul{
+      display: none;
+    }
+
     li{
+
       margin: 10px;
       padding: 5px;
       border: 1px solid black;
