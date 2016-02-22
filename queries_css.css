@@ -1,0 +1,55 @@
+body{
+  background-color: tomato;
+}
+
+.logo{
+  border: 1px solid black;
+  padding: 5px;
+  width: 30%;
+}
+
+nav{
+  float: right;
+  width: 25%;
+  font-size: 24px;
+}
+
+section{
+  float: left;
+  width: 70%;
+}
+
+/*phone - Portrait*/
+
+  @media only screen and (max-width: 500px){
+    body{
+      background-color: yellow;
+    }
+
+    .logo{
+      border: 1px dashed green;
+      padding: 5px;
+      width: 30%;
+      position:fixed;
+      left:0px;
+      bottom:0px;
+    }
+
+    nav{
+      width: 100%;
+    }
+
+    li{
+      margin: 10px;
+      padding: 5px;
+      border: 1px solid black;
+      font-size: 14px;
+      display: inline-block;
+    }
+
+    section{
+      margin: 10px;
+      float: left;
+      width: 100%;
+    }
+  }
